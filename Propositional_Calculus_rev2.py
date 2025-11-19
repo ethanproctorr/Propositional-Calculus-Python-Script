@@ -160,7 +160,7 @@ class PropositionalCalculusProof:
                 self.theorems.append(newstring)
             
             
-class Fantasy(PropositionalCalculusProof): # Fix double tilde logic, add rest of rules, add check for well-formedness
+class Fantasy(PropositionalCalculusProof):
 
     def __init__(self, theorems=None):
         PropositionalCalculusProof.__init__(self)
