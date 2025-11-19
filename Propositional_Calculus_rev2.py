@@ -1,6 +1,9 @@
 import re
 import os
 
+def main():
+    Fantasy()
+
 def split_at_top_level(s, sep):
     if s.startswith("<") and s.endswith(">"):
         s_inner = s[1:-1].strip()
@@ -301,5 +304,5 @@ def isValidProof(proof):
     pass
 
 if __name__ == "__main__":
-    i = Fantasy()
+    main()
 
